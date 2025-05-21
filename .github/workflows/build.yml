@@ -44,7 +44,7 @@ jobs:
     timeout-minutes: 2400
     runs-on: self-hosted
     environment: 
-      name: Builder
+      name: personal
     steps:
       - name: Clean Everything and Start Fresh
         if: ${{ inputs.fresh_install }}
